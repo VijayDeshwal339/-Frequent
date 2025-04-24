@@ -83,7 +83,7 @@ const ChooseUsPage = () => {
       </div>
 
       {/* Golden Rule Section */}
-      <section className="w-full flex flex-col sm:flex items-center justify-center sm:justify-start py-10 px-4 gap-8">
+      <section className="w-full flex flex-col sm:flex-row items-center justify-center sm:justify-start py-10 px-4 gap-8">
       <img src={Heart} alt="Heart Icon" className=" w-10 h-10 sm:w-24 sm:h-24 object-contain" />
 
       <div className="w-full flex flex-col justify-center text-center">
@@ -101,7 +101,7 @@ const ChooseUsPage = () => {
       {/* Frequent Research Section */}
       <section className="py-12 w-[100%]">
         <img src={who} alt='' className="w-[100%]"/>
-        <div className="flex flex-col sm:flex items-center justify-center it sm:justify-start">
+        <div className="flex flex-col sm:flex-row items-center justify-center it sm:justify-start">
         <img src={hand} alt='' className="w-10-h-10" />
         <h2 className="text-xl sm:text-3xl font-bold text-pink-900 text-center">
           We are <span className="text-gray-500 font-light italic">Frequent Research</span>
